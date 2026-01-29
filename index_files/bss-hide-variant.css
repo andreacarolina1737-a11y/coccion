@@ -1,0 +1,26 @@
+/** Shopify CDN: Minification failed
+
+Line 10:0 Unexpected "{"
+Line 10:1 Expected identifier but found "%"
+Line 11:11 Expected identifier but found whitespace
+Line 13:18 Expected identifier but found whitespace
+Line 17:1 Expected identifier but found "%"
+
+**/
+{%- comment %}
+    Author: BSS B2B Login
+
+    DO NOT MODIFY. The contents of BSS B2B Login 
+    will overwrite any changes in the next update.
+
+    Updated at: Tue Nov 26 2024
+{% endcomment -%}
+[id*='MainProduct']:has(.bsscommerce-hv-message) [id*='Quantity-Form']{
+                display: none
+            }
+            [id*='MainProduct']:has(.bsscommerce-hv-message) [id*='ProductSubmitButton'],
+            [id*='MainProduct']:has(.bsscommerce-hv-message) .shopify-payment-button {
+                cursor: not-allowed;
+                opacity: .5;
+                pointer-events: none;
+            }
